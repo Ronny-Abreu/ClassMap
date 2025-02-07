@@ -23,6 +23,10 @@ class Program
         Student student = new Student("Ana P.", 22, "Computer Science");
         student.ShowInfo();
 
+
+        // TEACHER
+        Teacher teacher = new Teacher("Jordan B.", 35, "programming");
+        teacher.ShowInfo();
     }
 
 
