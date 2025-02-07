@@ -9,11 +9,11 @@ class Program
         community.ShowInfo();
 
         //Member
-        Member member = new Member("Jendry A.", 16, "Programming");
+        Member member = new Member("Jendry A.", 25, "Programming");
         member.ShowInfo();
 
         //EMPLOYEES
-        Employee employee1 = new Employee("Ronny A.", 20, "Software Developer");
+        Employee employee1 = new Employee("Ronny A.", 29, "Software Developer");
         Employee employee2 = new Employee("Midu D.", 33, "Project Manager");
 
         employee1.ShowInfo();
@@ -27,6 +27,10 @@ class Program
         // TEACHER
         Teacher teacher = new Teacher("Jordan B.", 35, "programming");
         teacher.ShowInfo();
+
+        // EX-ALUMN
+        ExAlumn exAlumn = new ExAlumn("Maria G.", 2018, "CyberSecurity");
+        exAlumn.ShowInfo();
     }
 
 
