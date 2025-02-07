@@ -13,6 +13,6 @@
 
     public void ShowInfo()
     {
-        Console.WriteLine($"Employee: {Name}, Age: {Age}, Position: {Position}");
+        Console.WriteLine($"\nEmployee: {Name}, Age: {Age}, Position: {Position}");
     }
 }
