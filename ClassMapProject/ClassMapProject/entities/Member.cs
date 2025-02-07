@@ -13,6 +13,6 @@
 
     public void ShowInfo()
     {
-        Console.WriteLine($"{Name}, {Age} years old, is a {Role} in the community.");
+        Console.WriteLine($"Member {Name}, {Age} years old, is a {Role} in the community.");
     }
 }
