@@ -2,17 +2,17 @@
 {
     public string Name { get; set; }
     public int Age { get; set; }
-    public string Workshop { get; set; }
+    public string Role { get; set; }
 
-    public Member(string name, int age, string workshop)
+    public Member(string name, int age, string role)
     {
         this.Name = name;
         this.Age = age;
-        this.Workshop = workshop;
+        this.Role = role;
     }
 
     public void ShowInfo()
     {
-        Console.WriteLine($"Member: {Name}, \nAge: {Age}, \nWorkshop: {Workshop}");
+        Console.WriteLine($"{Name}, {Age} years old, is a {Role} in the community.");
     }
 }
