@@ -9,7 +9,7 @@ class Program
         community.ShowInfo();
 
         //Member
-        Member member = new Member("\nJendry A.", 16, "Programming");
+        Member member = new Member("Jendry A.", 16, "Programming");
         member.ShowInfo();
 
         //EMPLOYEES
@@ -18,6 +18,11 @@ class Program
 
         employee1.ShowInfo();
         employee2.ShowInfo();
+
+        // STUDENT
+        Student student = new Student("Ana P.", 22, "Computer Science");
+        student.ShowInfo();
+
     }
 
 
