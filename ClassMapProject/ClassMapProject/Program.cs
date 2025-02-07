@@ -31,6 +31,10 @@ class Program
         // EX-ALUMN
         ExAlumn exAlumn = new ExAlumn("Maria G.", 2018, "CyberSecurity");
         exAlumn.ShowInfo();
+
+        // ADMINISTRATOR
+        Administrator admin = new Administrator("John D.", 45, "Principal");
+        admin.ShowInfo();
     }
 
 
