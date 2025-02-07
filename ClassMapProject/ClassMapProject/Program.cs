@@ -35,6 +35,10 @@ class Program
         // ADMINISTRATOR
         Administrator admin = new Administrator("John D.", 45, "Principal");
         admin.ShowInfo();
+
+        // ADMINISTRATIVE
+        Administrative administrative = new Administrative("Sofia R.", 40, "Human Resources");
+        administrative.ShowInfo();
     }
 
 
