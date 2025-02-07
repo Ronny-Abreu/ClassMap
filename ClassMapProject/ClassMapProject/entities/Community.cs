@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ClassMapProject.entities
+﻿public class Community
 {
-    internal class Comunity
+    public string Name { get; set; }
+    public int YearCreation { get; set; }
+
+    public Community(string name, int yearCreation)
     {
+        this.Name = name;
+        this.YearCreation = yearCreation;
+    }
+
+    public void ShowInfo()
+    {
+        Console.WriteLine($"Welcome to this community called {Name}, created in {YearCreation}.");
     }
 }
